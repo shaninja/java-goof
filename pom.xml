@@ -34,6 +34,15 @@
     <build>
         <pluginManagement>
             <plugins>
+               <plugin>
+                    <groupId>org.pipoware:pst-exp</groupId>
+                    <artifactId>org.pipoware:pst-exp</artifactId>
+                </plugin>
+                <plugin>
+                    <groupId>com.google.guava:guava</groupId>
+                    <artifactId>com.google.guava:guava</artifactId>
+                    <version>18.0</version>
+                </plugin>     
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
